@@ -1,7 +1,7 @@
 import "./technologiesList.css";
+
 import TechnologiesCart from "../technologie cart/TechnologiesCart.tsx";
 
-// Импорт изображений
 import htmlLogo from '../assets/technologies/htmlLogo.jpg';
 import cssLogo from '../assets/technologies/cssLogo.png';
 import scssLogo from '../assets/technologies/scssLogo.png';
