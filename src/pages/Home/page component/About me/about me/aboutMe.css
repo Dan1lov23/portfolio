@@ -1,7 +1,7 @@
 .aboutMe {
     width: 100%;
     height: 100vh;
-    background-image: url('src/pages/Home/page component/About me/background img/blackBack.jpg');
+    background-image: url('/src/pages/Home/page component/About me/background img/blackBack.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -11,7 +11,7 @@
     .aboutMe {
         width: 100%;
         height: 100vh;
-        background-image: url('src/pages/Home/page component/About me/background img/blackBack.jpg');
+        background-image: url('/src/pages/Home/page component/About me/background img/blackBack.jpg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
