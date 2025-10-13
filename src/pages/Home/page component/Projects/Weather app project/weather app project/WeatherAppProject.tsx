@@ -9,9 +9,9 @@ import WeatherAppProjectDescription from "../weather app description/WeatherAppP
 export default function WeatherAppProject() {
 
     const imgArray = [
-        "http://109.194.51.67/~sv/porfolio/weather%20app%20img/img1.png",
-        "http://109.194.51.67/~sv/porfolio/weather%20app%20img/img2.png",
-        "http://109.194.51.67/~sv/porfolio/weather%20app%20img/img3.png",
+        "//109.194.51.67/~sv/porfolio/weather%20app%20img/img1.png",
+        "//109.194.51.67/~sv/porfolio/weather%20app%20img/img2.png",
+        "//109.194.51.67/~sv/porfolio/weather%20app%20img/img3.png",
     ];
 
     return (
