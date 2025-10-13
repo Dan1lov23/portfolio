@@ -2,18 +2,18 @@ import "./technologiesList.css";
 
 import TechnologiesCart from "../technologie cart/TechnologiesCart.tsx";
 
-import htmlLogo from './imgs/htmlLogo.jpg';
-import cssLogo from '../imgs/technologies/cssLogo.png';
-import scssLogo from '../imgs/technologies/scssLogo.png';
-import jsLogo from '../imgs/technologies/jsLogo.png';
-import tsLogo from '../imgs/technologies/tsLogo.png';
-import reactLogo from '../imgs/technologies/reactLogo.png';
-import reduxLogo from '../imgs/technologies/reduxLogo.png';
-import zustandLogo from '../imgs/technologies/zustandLogo.png';
-import viteLogo from '../imgs/technologies/viteLogo.png';
-import gitLogo from '../imgs/technologies/gitLogo.png';
-import githubLogo from '../imgs/technologies/githubLogo.png';
-import cicdLogo from '../imgs/technologies/cicdLogo.png';
+import htmlLogo from '../imgs/htmlLogo.jpg';
+import cssLogo from '../imgs/cssLogo.png';
+import scssLogo from '../imgs/cssLogo.png';
+import jsLogo from '../imgs/jsLogo.png';
+import tsLogo from '../imgs/tsLogo.png';
+import reactLogo from '../imgs/reactLogo.png';
+import reduxLogo from '../imgs/reduxLogo.png';
+import zustandLogo from '../imgs/zustandLogo.png';
+import viteLogo from '../imgs/viteLogo.png';
+import gitLogo from '../imgs/gitLogo.png';
+import githubLogo from '../imgs/githubLogo.png';
+import cicdLogo from '../imgs/cicdLogo.png';
 
 
 export default function TechnologiesList() {
