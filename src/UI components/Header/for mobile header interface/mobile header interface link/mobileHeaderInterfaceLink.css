@@ -1,0 +1,6 @@
+.mobileHeaderInterfaceLink {
+    p {
+        font-size: 30px;
+        color: var(--black-background-color);
+    }
+}

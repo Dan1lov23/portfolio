@@ -1,0 +1,13 @@
+.technologiesCart {
+    text-align: center;
+    border: 2px solid var(--black-hover-color);
+    img {
+        margin-top: 20px;
+        width: 70px;
+        height: 70px;
+    }
+    p {
+        font-size: 20px;
+        color: var(--black-text-color);
+    }
+}

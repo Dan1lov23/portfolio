@@ -1,0 +1,11 @@
+.technologiesList {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+@media(max-width: 768px) {
+    .technologiesList {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

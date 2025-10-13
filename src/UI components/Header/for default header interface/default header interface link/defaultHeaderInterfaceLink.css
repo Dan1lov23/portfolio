@@ -1,0 +1,30 @@
+.defaultHeaderInterfaceLink {
+    text-align: center;
+    p {
+        position: relative;
+        display: inline-block;
+        font-size: 30px;
+        transition: var(--transition);
+        color: var(--black-text-color);
+        cursor: pointer;
+
+        &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -14px;
+            height: 3px;
+            width: 0;
+            background-color: var(--black-hover-color);
+            transition: width var(--transition);
+        }
+    }
+
+    p:hover {
+        color: var(--black-hover-color);
+
+        &::after {
+            width: 100%;
+        }
+    }
+}

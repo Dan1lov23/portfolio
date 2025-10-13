@@ -1,0 +1,19 @@
+.technologiesTitle {
+    text-align: center;
+    p {
+        font-size: 60px;
+        font-family: PIXEL;
+        color: var(--black-hover-color);
+    }
+}
+
+@media(max-width: 768px) {
+    .technologiesTitle {
+        text-align: center;
+        p {
+            font-size: 40px;
+            font-family: PIXEL;
+            color: var(--black-hover-color);
+        }
+    }
+}

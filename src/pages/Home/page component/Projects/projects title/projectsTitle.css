@@ -1,0 +1,19 @@
+.projectsTitle {
+    text-align: center;
+    p {
+        font-family: PIXEL;
+        font-size: 60px;
+        color: var(--black-hover-color)
+    }
+}
+
+@media(max-width: 768px) {
+    .projectsTitle {
+        text-align: center;
+        p {
+            font-family: PIXEL;
+            font-size: 50px;
+            color: var(--black-hover-color)
+        }
+    }
+}

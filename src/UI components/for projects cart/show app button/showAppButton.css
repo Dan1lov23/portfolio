@@ -1,0 +1,18 @@
+.showAppButton {
+    margin: 20px;
+    button {
+        width: 150px;
+        height: 50px;
+        border: none;
+        font-size: 30px;
+        border-radius: var(--border-radius);
+        transition: var(--transition);
+        color: var(--black-background-color);
+        background-color: var(--black-hover-color);
+    }
+    button:hover {
+        background-color: var(--black-background-color);
+        border: 2px solid var(--black-hover-color);
+        color: var(--black-hover-color);
+    }
+}

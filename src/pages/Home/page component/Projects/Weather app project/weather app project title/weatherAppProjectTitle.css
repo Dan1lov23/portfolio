@@ -1,0 +1,21 @@
+.weatherAppProjectTitle {
+    text-align: center;
+    p {
+        font-family: PIXEL;
+        font-size: 40px;
+        color: var(--black-hover-color)
+    }
+}
+
+@media(max-width: 768px) {
+    .weatherAppProjectTitle {
+        text-align: center;
+        p {
+            font-family: PIXEL;
+            font-size: 40px;
+            color: var(--black-hover-color)
+        }
+    }
+
+}
+

@@ -1,0 +1,11 @@
+.defaultHeaderInterfaceLogo {
+    margin-left: 10%;
+    p {
+        font-size: 50px;
+        transition: var(--transition);
+        color: var(--black-text-color);
+    }
+    p:hover {
+        color: var(--black-hover-color);
+    }
+}

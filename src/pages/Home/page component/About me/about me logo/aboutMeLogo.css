@@ -1,0 +1,59 @@
+.aboutMeLogo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    .des {
+        text-align: center;
+        margin-top: 18.4vh;
+        h2 {
+            margin-left: 20px;
+            font-size: 30px;
+            font-family: PIXEL;
+            color: var(--black-text-color);
+        }
+        p {
+            margin-left: 20px;
+            font-size: 30px;
+            font-family: PIXEL;
+            color: var(--black-text-color);
+        }
+    }
+    .logo {
+        text-align: center;
+        margin-top: 18.4vh;
+        p {
+            font-size: 120px;
+            color: var(--black-text-color);
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .aboutMeLogo {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        .des {
+            text-align: center;
+            margin-top: 1.4vh;
+            h2 {
+                margin-left: 20px;
+                font-size: 20px;
+                font-family: PIXEL;
+                color: var(--black-text-color);
+            }
+            p {
+                margin-left: 20px;
+                font-size: 20px;
+                font-family: PIXEL;
+                color: var(--black-text-color);
+            }
+        }
+        .logo {
+            text-align: center;
+            margin-top: 1.4vh;
+            p {
+                font-size: 120px;
+                color: var(--black-text-color);
+            }
+        }
+    }
+}

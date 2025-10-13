@@ -1,0 +1,7 @@
+.mobileHeaderInterfaceLogo {
+    margin-left: 20%;
+    p {
+        color: var(--black-text-color);
+        font-size: 40px;
+    }
+}

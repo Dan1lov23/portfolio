@@ -1,0 +1,19 @@
+.header {
+    .defaultInterfaceH {
+        display: block;
+    }
+    .mobileInterfaceH {
+        display: none;
+    }
+}
+
+@media(max-width: 768px) {
+    .header {
+        .defaultInterfaceH {
+            display: none;
+        }
+        .mobileInterfaceH {
+            display: block;
+        }
+    }
+}

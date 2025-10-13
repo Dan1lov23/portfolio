@@ -1,0 +1,38 @@
+.contactCart {
+    text-align: center;
+    background: var(--black-hover-color);
+    border: 2px solid var(--black-background-color);
+    transition: var(--transition);
+    height: 10vh;
+    p {
+        font-size: 30px;
+        font-family: PIXEL;
+        color: var(--black-background-color);
+    }
+}
+
+.contactCart:hover {
+    color: var(--black-hover-color);
+    border: 2px solid var(--black-hover-color);
+    background: var(--black-background-color);
+    p {
+        font-size: 30px;
+        font-family: PIXEL;
+        color: var(--black-hover-color);
+    }
+}
+
+@media (max-width: 768px) {
+    .contactCart {
+        text-align: center;
+        background: var(--black-hover-color);
+        border: 2px solid var(--black-background-color);
+        transition: var(--transition);
+        height: 15vh;
+        p {
+            font-size: 30px;
+            font-family: PIXEL;
+            color: var(--black-background-color);
+        }
+    }
+}

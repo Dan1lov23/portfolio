@@ -1,0 +1,8 @@
+:root {
+    --black-background-color: black;
+    --black-text-color: #ffffff;
+    --black-hover-color: #46f414;
+
+    --border-radius: 10px;
+    --transition: 0.4s;
+}
