@@ -4,10 +4,11 @@
     margin-top: 2%;
     .description {
         width: 1000px;
-        text-align: center;
+        text-align: left;
         border: 2px solid var(--black-hover-color);
         p {
             font-size: 20px;
+            margin: 20px;
             font-family: PIXEL;
             color: var(--black-hover-color);
         }
@@ -21,10 +22,11 @@
         margin-top: 2%;
         .description {
             width: 340px;
-            text-align: center;
+            text-align: left;
             border: 2px solid var(--black-hover-color);
             p {
                 font-size: 15px;
+                margin: 20px;
                 font-family: PIXEL;
                 color: var(--black-hover-color);
             }
