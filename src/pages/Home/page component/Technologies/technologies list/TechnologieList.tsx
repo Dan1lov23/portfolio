@@ -2,7 +2,7 @@ import "./technologiesList.css";
 
 import TechnologiesCart from "../technologie cart/TechnologiesCart.tsx";
 
-import htmlLogo from '../imgs/htmlLogo.jpg';
+import htmlLogo from './imgs/htmlLogo.jpg';
 import cssLogo from '../imgs/technologies/cssLogo.png';
 import scssLogo from '../imgs/technologies/scssLogo.png';
 import jsLogo from '../imgs/technologies/jsLogo.png';
@@ -14,6 +14,7 @@ import viteLogo from '../imgs/technologies/viteLogo.png';
 import gitLogo from '../imgs/technologies/gitLogo.png';
 import githubLogo from '../imgs/technologies/githubLogo.png';
 import cicdLogo from '../imgs/technologies/cicdLogo.png';
+
 
 export default function TechnologiesList() {
     const technologiesArray = [
