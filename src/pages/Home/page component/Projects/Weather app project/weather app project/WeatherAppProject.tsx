@@ -1,17 +1,19 @@
+import img1 from "../img/img1.png";
+import img2 from "../img/img2.png";
+import img3 from "../img/img3.png";
+
+import WeatherAppProjectButtons from "../weather app project buttons/WeatherAppProjectButtons.tsx";
+import WeatherAppProjectDescription from "../weather app description/WeatherAppProjectDescription.tsx";
 import WeatherAppProjectTitle from "../weather app project title/WeatherAppProjectTitle.tsx";
-import ProjectsTitle     from "../../projects title/ProjectsTItle.tsx";
+import ProjectsTitle from "../../projects title/ProjectsTItle.tsx";
 import ProjectSlider from "../../../../../../UI components/for projects cart/project slider/ProjectSlider.tsx";
 
 import {motion} from "framer-motion";
-import WeatherAppProjectButtons from "../weather app project buttons/WeatherAppProjectButtons.tsx";
-import WeatherAppProjectDescription from "../weather app description/WeatherAppProjectDescription.tsx";
 
 export default function WeatherAppProject() {
 
     const imgArray = [
-        "//109.194.51.67/~sv/porfolio/weather%20app%20img/img1.png",
-        "//109.194.51.67/~sv/porfolio/weather%20app%20img/img2.png",
-        "//109.194.51.67/~sv/porfolio/weather%20app%20img/img3.png",
+        img1, img2, img3
     ];
 
     return (

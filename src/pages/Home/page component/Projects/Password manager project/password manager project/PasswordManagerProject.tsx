@@ -1,5 +1,10 @@
 import {motion} from "framer-motion";
 
+import img1 from "../img/img1.png";
+import img2 from "../img/img2.png";
+import img3 from "../img/img3.png";
+import img4 from "../img/img4.png";
+
 import PasswordManagerProjectTitle from "../password manager project title/PasswordManagerProjectTitle.tsx";
 import ProjectSlider from "../../../../../../UI components/for projects cart/project slider/ProjectSlider.tsx";
 import PasswordManagerDescription from "../password manager description/PasswordManagerDescription.tsx";
@@ -8,10 +13,7 @@ import PasswordManagerProjectButtons from "../password manager project buttons/P
 export default function PasswordManagerProject() {
 
     const imgArray = [
-        "http://109.194.51.67/~sv/porfolio/password manager img/img1.png",
-        "http://109.194.51.67/~sv/porfolio/password manager img/img2.png",
-        "http://109.194.51.67/~sv/porfolio/password manager img/img3.png",
-        "http://109.194.51.67/~sv/porfolio/password manager img/img4.png",
+        img1, img2, img3, img4
     ]
 
     return (
