@@ -8,10 +8,10 @@ import PasswordManagerProjectButtons from "../password manager project buttons/P
 export default function PasswordManagerProject() {
 
     const imgArray = [
-        "./src/pages/Home/page component/Projects/Password manager project/img/img1.png",
-        "./src/pages/Home/page component/Projects/Password manager project/img/img2.png",
-        "./src/pages/Home/page component/Projects/Password manager project/img/img3.png",
-        "./src/pages/Home/page component/Projects/Password manager project/img/img4.png"
+        "http://109.194.51.67/~sv/porfolio/password manager img/img1.png",
+        "http://109.194.51.67/~sv/porfolio/password manager img/img2.png",
+        "http://109.194.51.67/~sv/porfolio/password manager img/img3.png",
+        "http://109.194.51.67/~sv/porfolio/password manager img/img4.png",
     ]
 
     return (
