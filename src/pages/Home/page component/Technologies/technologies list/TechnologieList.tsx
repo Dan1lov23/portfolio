@@ -2,18 +2,18 @@ import "./technologiesList.css";
 
 import TechnologiesCart from "../technologie cart/TechnologiesCart.tsx";
 
-import htmlLogo from '../assets/technologies/htmlLogo.jpg';
-import cssLogo from '../assets/technologies/cssLogo.png';
-import scssLogo from '../assets/technologies/scssLogo.png';
-import jsLogo from '../assets/technologies/jsLogo.png';
-import tsLogo from '../assets/technologies/tsLogo.png';
-import reactLogo from '../assets/technologies/reactLogo.png';
-import reduxLogo from '../assets/technologies/reduxLogo.png';
-import zustandLogo from '../assets/technologies/zustandLogo.png';
-import viteLogo from '../assets/technologies/viteLogo.png';
-import gitLogo from '../assets/technologies/gitLogo.png';
-import githubLogo from '../assets/technologies/githubLogo.png';
-import cicdLogo from '../assets/technologies/cicdLogo.png';
+import htmlLogo from '../imgs/htmlLogo.jpg';
+import cssLogo from '../imgs/technologies/cssLogo.png';
+import scssLogo from '../imgs/technologies/scssLogo.png';
+import jsLogo from '../imgs/technologies/jsLogo.png';
+import tsLogo from '../imgs/technologies/tsLogo.png';
+import reactLogo from '../imgs/technologies/reactLogo.png';
+import reduxLogo from '../imgs/technologies/reduxLogo.png';
+import zustandLogo from '../imgs/technologies/zustandLogo.png';
+import viteLogo from '../imgs/technologies/viteLogo.png';
+import gitLogo from '../imgs/technologies/gitLogo.png';
+import githubLogo from '../imgs/technologies/githubLogo.png';
+import cicdLogo from '../imgs/technologies/cicdLogo.png';
 
 export default function TechnologiesList() {
     const technologiesArray = [
