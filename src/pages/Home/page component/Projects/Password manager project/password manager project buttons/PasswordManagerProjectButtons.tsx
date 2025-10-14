@@ -8,7 +8,7 @@ export default function PasswordManagerProjectButtons() {
         <>
             <div className="passwordManagerProjectButtons">
                 <ShowCodeButton link={"https://github.com/Dan1lov23/password-manager-V3-frontend"}/>
-                <ShowAppButton link={"http://109.194.51.67/~sv/weather%20app/dist/"}/>
+                <ShowAppButton link={"https://password-manager-v3-frontend.onrender.com"}/>
             </div>
         </>
     )
