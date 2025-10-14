@@ -1,6 +1,6 @@
 .defaultHeaderInterface {
     width: 100%;
-    height: 15vh;
+    height: 18vh;
     position: fixed;
     border-bottom: 1px solid var(--black-hover-color);
     background-color: var(--black-background-color);
