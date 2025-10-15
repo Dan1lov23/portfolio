@@ -9,6 +9,8 @@ import {useState} from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faBars} from '@fortawesome/free-solid-svg-icons';
 
+import MobileHeaderInterfaceLink from "../mobile header interface link/MobileHeaderInterfaceLink.tsx";
+
 export default function MobileInterfaceHeaderButton() {
 
     const [open, setOpen] = useState(false);
@@ -17,6 +19,13 @@ export default function MobileInterfaceHeaderButton() {
         setOpen(newOpen);
     };
 
+    const linksArray = [
+        {link: "Обо мне", position: 100},
+        {link: "Технологии", position: 1000},
+        {link: "Проекты", position: 2100},
+        {link: "Контакты", position: 1000},
+    ]
+
     const DrawerList = (
         <Box
             sx={{ width: '100%', height: '100%' }}
@@ -24,7 +33,11 @@ export default function MobileInterfaceHeaderButton() {
             onClick={toggleDrawer(false)}
         >
             <List>
-
+                {linksArray.map((link, index) => (
+                    <div key={index}>
+                        <MobileHeaderInterfaceLink link={link.link} position={link.position} onClose={toggleDrawer(false)}/>
+                    </div>
+                ))}
             </List>
         </Box>
     );

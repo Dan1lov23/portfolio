@@ -1,16 +1,26 @@
 import "./mobileHeaderInterfaceLink.css";
 
-export default function MobileHeaderInterfaceLink({link, position}:{link:string, position:number}) {
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faCircle} from "@fortawesome/free-solid-svg-icons";
 
-    const changePositionFunction = () => {
-        window.scrollTo({ top: position, behavior: 'smooth' });
+interface Props {
+    link: string;
+    position: number;
+    onClose: () => void;
+}
+
+export default function MobileHeaderInterfaceLink({link, position, onClose}: Props) {
+
+    const handleClick = () => {
+        onClose();
+        setTimeout(() => {
+            window.scrollTo({ top: position, behavior: 'smooth' });
+        }, 300);
     }
 
     return (
-        <>
-            <div className="mobileHeaderInterfaceLink" onClick={() => changePositionFunction()}>
-                <p>{link}</p>
-            </div>
-        </>
-    )
+        <div className="mobileHeaderInterfaceLink" onClick={handleClick}>
+            <p><FontAwesomeIcon fontSize="20px" icon={faCircle}/> {link}</p>
+        </div>
+    );
 }

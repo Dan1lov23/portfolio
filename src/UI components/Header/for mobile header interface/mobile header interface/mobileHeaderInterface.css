@@ -1,6 +1,7 @@
 .mobileHeaderInterface {
     width: 100%;
     height: 15vh;
+    position: fixed;
     border-bottom: 1px solid var(--black-hover-color);
     background-color: var(--black-background-color);
     display: grid;
