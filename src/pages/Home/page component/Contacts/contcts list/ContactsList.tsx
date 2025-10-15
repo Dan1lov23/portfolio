@@ -8,7 +8,7 @@ export default function ContactsList() {
         {name: "github", link: "https://github.com/Dan1lov23/"},
         {name: "linkedin", link: "https://www.linkedin.com/in/"},
         {name: "twitter", link: "https://twitter.com/"},
-        {name: "telegram", link: "https://www.telegram.com/"},
+        {name: "telegram", link: "http://t.me/@kicgv"},
     ]
 
     return (
