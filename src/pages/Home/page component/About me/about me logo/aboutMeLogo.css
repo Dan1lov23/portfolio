@@ -3,7 +3,7 @@
     grid-template-columns: repeat(2, 1fr);
     .des {
         text-align: center;
-        margin-top: 18.4vh;
+        margin-top: 38.4vh;
         h2 {
             margin-left: 20px;
             font-size: 30px;
@@ -19,7 +19,7 @@
     }
     .logo {
         text-align: center;
-        margin-top: 18.4vh;
+        margin-top: 32.4vh;
         p {
             font-size: 120px;
             color: var(--black-text-color);
