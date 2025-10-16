@@ -23,7 +23,7 @@ export default function MobileInterfaceHeaderButton() {
         {link: "Обо мне", position: 100},
         {link: "Технологии", position: 1000},
         {link: "Проекты", position: 2100},
-        {link: "Контакты", position: 1000},
+        {link: "Контакты", position: 10000},
     ]
 
     const DrawerList = (
